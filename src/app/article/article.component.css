@@ -1,0 +1,8 @@
+
+  .main-section{
+    min-height: 100vh;
+    padding: 25px 25px 25px 25px;
+  }
+  .main-section header{
+    font-size: 2rem;
+  }

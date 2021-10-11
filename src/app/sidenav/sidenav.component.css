@@ -1,0 +1,43 @@
+#navbar{
+    position: fixed;
+    height: 100Vh;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    background: #03A9F4;
+    transition: all .7s ease-in-out;
+    width: 300px;
+  }
+  .navbar-title{
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 1.1rem;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  li{
+    list-style-type: none;
+    width: 100%;
+    padding: 5%;
+    opacity: 0.8;
+    color: #FFF;
+  }
+  li:hover{
+      opacity:1;
+  }
+  ul{
+    padding: 0;
+    width: 90%;
+  }
+
+  @media screen and (max-width: 640px) {
+    #navbar {
+      margin-left: -300px;
+    }
+    #main-doc{
+      margin-left: 0;
+    }
+}

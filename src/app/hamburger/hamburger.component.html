@@ -1,0 +1,6 @@
+<div #hamburger class="hamburger-component" (click)="onHamburgerClick()">
+    <div #hamburger class="hamburger-nav">
+        <a *ngFor="let article of articles" href="#{{article.link}}">{{article.title}}</a>
+    </div>
+    <!-- <i class="fas fa-bars hamburger"></i> -->
+</div>

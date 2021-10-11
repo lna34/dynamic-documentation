@@ -1,0 +1,10 @@
+<nav id="navbar">
+    <header class="navbar-title">
+        Documentation skeleton
+    </header>
+    <ul>
+        <a *ngFor="let article of articles" class="nav-link" href="#{{article.link}}" rel="internal">
+            <li>{{article.title}}</li>
+        </a>
+    </ul>
+</nav>

@@ -1,0 +1,11 @@
+<app-hamburger [articles]="articles">
+
+</app-hamburger>
+<div class="container-doc">
+
+  <app-sidenav [articles]="articles"></app-sidenav>
+
+  <main id="main-doc">
+    <app-article *ngFor="let article of articles" [article]="article"></app-article>
+  </main>
+</div>
